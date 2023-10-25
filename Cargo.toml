@@ -7,21 +7,6 @@ edition = "2021"
 
 [dependencies]
 blue_engine = { git = "https://github.com/AryanpurTech/BlueEngine" }
-chrono = "0.4.23"
-colored = "2.0.0"
-num = "0.4.0"
-hex = "0.4"
-reqwest = { version = "0.11", features = ["blocking"] }
-openssl-sys = "0.9"
-encoding_rs = "0.8"
-psutil = "3.2.2"
-rand = "0.8.4"
-libc = "0.2"
-zip = "0.5.11"
-flate2 = "1.0.26"
-sysinfo = "0.14.0"
-
-base64 = "0.21.2"
-url = "2.2.2"
-winapi = "0.3.9"
+blue_engine_utilities = {git = "https://github.com/AryanpurTech/BlueEngineUtilities.git"}
+nscript = { git = "https://github.com/NickJasonHagen/nscript" }
 
